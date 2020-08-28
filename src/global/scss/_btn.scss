@@ -1,0 +1,108 @@
+.btn__find {
+    font-family: 'Gilroy';
+    line-height: 22px;
+    position: relative;
+    padding: 13px 24px;
+    border: 1px solid $color-orange;
+    border-radius: 5px;
+    
+    background: none;
+    
+    color: $color-orange;
+    
+    text-transform: uppercase;
+    transition: all ease-in-out .2s;
+
+    &:hover, &:focus {
+        cursor: pointer;
+        outline: none;
+        box-shadow: 0 6px 6px 3px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.btn__header {
+    font-family: 'Gilroy';
+    
+    line-height: 22px;
+    
+    position: relative;
+    
+    padding: 15px 25px;
+    
+    border: none;
+    border-radius: 5px;
+    
+    background: $color-orange;
+    
+    color: $color-white--1;
+    
+    text-transform: uppercase;
+    transition: all ease-in-out .2s;
+
+    &:hover, &:focus {
+        cursor: pointer;
+        font-weight: bold;
+        outline: none;
+        box-shadow: 0 6px 6px 3px rgba(247, 148, 30, 0.5);
+    }
+}
+
+.btn-3 {
+    font-family: 'Gilroy';
+    
+    line-height: 24px;
+    
+    position: relative;
+    
+    padding: 21px 47px;
+    
+    border: 1px solid $color-orange;
+    border-radius: 5px;
+    
+    background: none;
+    color: $color-orange;
+    text-transform: uppercase;
+    transition: all ease-in-out .2s;
+
+    &:hover, &:focus {
+        cursor: pointer;
+        font-weight: bold;
+        outline: none;
+        box-shadow: 0 6px 6px 3px rgba(247, 148, 30, 0.5);
+    }
+}
+
+.btn-4 {
+    padding: 14px 25px;
+    background: #231F20;
+    border-radius: 5px;
+    line-height: 22px;
+    border: 1px solid #231F20;
+    text-transform: uppercase;
+    color: $color-white--1;
+    font-weight: normal;
+    transition: box-shadow ease-in-out .2s;
+
+    &:hover, &:focus {
+        cursor: pointer;
+        outline: none;
+        box-shadow: 0 6px 6px 3px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.btn-5 {
+    padding: 14px 25px;
+    background: none;
+    border-radius: 5px;
+    line-height: 22px;
+    border: 1px solid #231F20;
+    text-transform: uppercase;
+    color: #231F20;
+    transition: box-shadow ease-in-out .2s;
+
+    &:hover, &:focus {
+        cursor: pointer;
+        outline: none;
+        box-shadow: 0 6px 6px 3px rgba(0, 0, 0, 0.5);
+    }
+}

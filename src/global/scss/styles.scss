@@ -1,0 +1,19 @@
+// node
+@import "~normalize.css";
+
+// global
+@import "scaffolding";
+@import "fonts";
+@import "variables";
+@import "main";
+@import "btn";
+
+// components
+@import "../../components/menu/menu";
+@import "../../components/header/header";
+@import "../../components/section-1/section-1";
+@import "../../components/gifts/gifts";
+@import "../../components/start/start";
+@import "../../components/blogs/blogs";
+@import "../../components/articles/articles";
+@import "../../components/footer/footer";

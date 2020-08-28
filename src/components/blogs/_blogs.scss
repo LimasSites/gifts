@@ -1,0 +1,139 @@
+.blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 88px;
+    margin-bottom: 80px;
+
+    &__title {
+        text-align: center;
+
+        h1 {
+            font-size: 1.77777778rem;
+            line-height: 38px;
+        }
+    }
+
+    &__desc {
+        margin-top: 23px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    &__article-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-top: 71px;
+
+        width: 100%;
+        max-width: 1170px;
+
+        background-color: #231F20;
+
+        &__img {
+            background-image: url('../../assets/images/img_bg_3.png');
+            background-repeat: no-repeat;
+            
+            width: 400px;
+            height: 370px;
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+
+            color: $color-white--1;
+
+            margin-right: auto;
+            margin-left: 78px;
+
+            p {
+                font-size: 0.77777778rem;
+                line-height: 20px;
+                margin-bottom: 27px;
+            }
+
+            h1 {
+                max-width: 492px;
+                font-size: 2.66666667rem;
+                line-height: 58px;
+                margin-bottom: 60px;
+            }
+
+            span {
+                line-height: 25px;
+
+                a {
+                    text-decoration: none;
+                    color: $color-white--1;
+                    border-bottom: 2px solid rgba($color: $color-white--1, $alpha: .0);
+                    
+                    transition: border ease-in-out .2s;
+
+                    &:hover {
+                        border-bottom: 2px solid $color-white--1;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: 970px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: auto;
+
+            &__text {
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 30px;
+    
+                color: $color-white--1;
+    
+                margin-right: 0;
+                margin-left: 0;
+                padding-top: 30px;
+    
+                p, h1, span {
+                    text-align: center;
+                }
+            }
+        }
+
+        @media screen and (max-width: 420px) {
+            &__img {
+                width: 330px;
+                height: 300px;
+            }
+
+            &__text {
+                width: 330px;
+
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        @media screen and (max-width: 350px) {
+            &__img {
+                width: 300px;
+                height: 270px;
+            }
+
+            &__text {
+                width: 300px;
+
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.wrap__start {
+    background-color: $color-orange;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 auto;
+
+    width: 100%;
+    max-width: 1000px;
+
+    padding-top: 81px;
+    padding-bottom: 81px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        h2, p {
+            font-size: 32px;
+            line-height: 45px;
+        }
+    }
+
+    &__buttons {
+        button:first-child {
+            margin-right: 12px;
+        }
+    }
+
+    @media screen and (max-width: 760px) {
+        flex-direction: column;
+
+        &__text {
+            h2, p {
+                text-align: center;
+            }
+        }
+        
+        &__buttons {
+            margin-top: 30px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        &__buttons {
+            button:first-child {
+                margin-right: 0;
+                width: 100%;
+            }
+
+            button:last-child {
+                margin-top: 20px;
+                width: 100%;
+            }
+        }
+    }
+}

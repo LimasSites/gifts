@@ -1,0 +1,88 @@
+.wrap__menu {
+    background-color: $color-white--3;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    max-width: 1356px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    margin: 0 auto;
+
+    &__logo {
+        font-family: 'Homemade Apple';
+        line-height: 39px;
+        color: #231F20;
+
+        @media screen and (max-width: 600px) {
+            text-align: center;
+            width: 100%;
+            margin-top: 30px;
+        }
+    }
+
+    &__nav {
+        @media screen and (max-width: 484px) {
+            text-align: center;
+            width: 100%;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: 'Gilroy';
+            line-height: 22px;
+
+            li {
+                list-style: none;
+                
+                &:not(:last-child) {
+                    margin-right: 3vw;
+                }
+            }
+
+            a {
+                display: block;
+                position: relative;
+
+                color: $color-black;
+                text-decoration: none;
+                
+                padding-top: 47px;
+                padding-bottom: 47px;
+
+                &:after {
+                    background-color: $color-black;
+                    display: block;
+                    content: "";
+                    height: 2px;
+                    width: 0%;
+                    left:50%;
+                    position:absolute;
+                    transition: width .3s ease-in-out;
+                    transform:translateX(-50%);
+                }
+
+                &:hover:after,
+                &:focus:after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    button {
+        @media screen and (max-width: 484px) {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+/* homemade-apple-regular - latin */
+@font-face {
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/fonts/homemade-apple-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Homemade Apple Regular'), local('HomemadeApple-Regular'),
+         url('../../assets/fonts/homemade-apple-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../assets/fonts/homemade-apple-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../assets/fonts/homemade-apple-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../../assets/fonts/homemade-apple-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../../assets/fonts/homemade-apple-v10-latin-regular.svg#HomemadeApple') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../../assets/fonts/Gilroy-SemiBold.eot');
+    src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+        url('../../assets/fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('../../assets/fonts/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../assets/fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../../assets/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Gilroy-Regular.woff') format('woff'),
+        url('../../assets/fonts/Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../assets/fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../../assets/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Gilroy-Bold.woff') format('woff'),
+        url('../../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+}

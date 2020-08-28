@@ -1,0 +1,101 @@
+.wrap__footer {
+    background-color: $color-white--3;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    // padding: 106px 220px 35px 220px;
+    padding: 12vh 20vw 35px 20vw;
+
+    &__top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        max-width: 1000px;
+
+        padding-bottom: 43px;
+
+        border-bottom: 1px solid $color-black;
+
+        &__menu, &__menu ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+        }
+
+        &__menu {
+            a {
+                font-size: 0.77777778rem;
+                text-decoration: none;
+                font-weight: bold;
+                color: $color-black;
+
+                border-bottom: 2px solid rgba($color: #000000, $alpha: .0);
+
+                transition: border ease-in-out .2s;
+
+                &:hover {
+                    border-bottom: 2px solid black;
+                }
+            }
+
+            li:first-child {
+                margin-right: 5.5vw;
+            }
+        }
+
+        &__logo {
+            font-family: 'Homemade Apple';
+            line-height: 39px;
+            color: $color-orange;
+
+            margin-left: 7.5vw;
+            margin-right: 7.5vw;
+        }
+
+        @media screen and (max-width: 580px) {
+            flex-direction: column;
+
+            &__logo {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    &__social {
+        margin-top: 56px;
+        
+        width: 300px;
+        
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            list-style: none;
+        }
+    }
+
+    &__copyright {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        width: 310px;
+        margin-top: 73px;
+
+        font-size: 0.77777778rem;
+        line-height: 20px;
+
+        span:first-child {
+            margin-right: 15px;
+        }
+    }
+}

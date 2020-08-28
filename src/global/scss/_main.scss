@@ -1,0 +1,13 @@
+html, body {
+    font-family: $body-font;
+    font-size: $base-font-size;
+    font-style: $base-font-style;
+    font-weight: $base-font-weight;
+    color: $font-color;
+}
+
+.container {
+    max-width: $desktop;
+
+    margin: 0 auto;
+}
